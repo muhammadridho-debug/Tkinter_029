@@ -41,4 +41,9 @@ L7.grid(row=7, column=0, sticky="w", padx=20, pady=2)
 E7 = tk.Entry(top, bd=3)
 E7.grid(row=7, column=1, padx=20, pady=2)
 
+L8 = tk.Label(top, text="Nilai Mapel 8: ")
+L8.grid(row=8, column=0, sticky="w", padx=20, pady=2)
+E8 = tk.Entry(top, bd=3)
+E8.grid(row=8, column=1, padx=10, pady=2)
+
 top.mainloop()
