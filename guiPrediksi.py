@@ -56,4 +56,7 @@ L10.grid(row=10, column=0, sticky="w", padx=20, pady=2)
 E10 = tk.Entry(top, bd=3)
 E10.grid(row=10, column=1, padx=20, pady=2)
 
+label_hasil = tk.Label(top, text="Hasil Prediksi: -")
+label_hasil.grid(row=12, column=0, columnspan=2, pady=5)
+
 top.mainloop()
