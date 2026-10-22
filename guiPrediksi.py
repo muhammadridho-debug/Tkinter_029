@@ -11,4 +11,9 @@ L1.grid(row=1, column=0, sticky="w", padx=20, pady=2)
 E1 = tk.Entry(top, bd=3)
 E1.grid(row=1, column=1, padx=20, pady=2)
 
+L2 = tk.Label(top, text="Nilai Mapel 2: ")
+L2.grid(row=2, column=0, sticky="w", padx=20, pady=2)
+E2 = tk.Entry(top, bd=3)
+E2.grid(row=2, column=1, padx=20, pady=2)
+
 top.mainloop()
